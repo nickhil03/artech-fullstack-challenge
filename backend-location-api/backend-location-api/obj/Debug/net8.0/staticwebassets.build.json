@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3f/VKR33HXNqncduf22X6hLOy1iPtAZkj5PxGNwjThA=",
+  "Source": "backend-location-api",
+  "BasePath": "_content/backend-location-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

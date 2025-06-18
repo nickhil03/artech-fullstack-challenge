@@ -1,0 +1,74 @@
+[
+  {
+    "ContainingType": "backend_location_api.Controllers.LocationController",
+    "Method": "AddLocation",
+    "RelativePath": "Location/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "type",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "startTime",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "endTime",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "backend_location_api.Models.Location",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "backend_location_api.Controllers.LocationController",
+    "Method": "GetAvailableLocations",
+    "RelativePath": "Location/available-locations",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "startTime",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "endTime",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[backend_location_api.Models.Location, backend-location-api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
